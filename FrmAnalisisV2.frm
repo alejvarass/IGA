@@ -6,7 +6,7 @@ Object = "{7D3C5781-B6D7-4C0E-9F2B-18DC0545EA5F}#1.0#0"; "IT_Hora.ocx"
 Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "Mscomct2.ocx"
-Begin VB.Form FrmAnalisisV2 
+Begin VB.Form FrmAnalisis 
    BackColor       =   &H00E8E8E8&
    BorderStyle     =   0  'None
    Caption         =   "Analisis"
@@ -4706,11 +4706,7 @@ Begin VB.Form FrmAnalisisV2
       Width           =   1035
    End
 End
-Attribute VB_Name = "FrmAnalisisV2"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = False
+
 Option Explicit
  
 Private WithEvents pObjAdminEventos         As clsAdminEventos
@@ -8244,3 +8240,4 @@ Private Sub TxtSpan_LostFocus()
     End If
     
 End Sub
+
