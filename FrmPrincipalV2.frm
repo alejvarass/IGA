@@ -7,7 +7,7 @@ Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
 Object = "{5E1C1B26-94B1-11D0-B18F-0000E8CA3ED9}#1.0#0"; "TAS.OCX"
 Object = "{48E59290-9880-11CF-9754-00AA00C00908}#1.0#0"; "MSINET.OCX"
 Object = "{575C54CD-73C5-437B-B179-A0B0F35AC1A7}#1.0#0"; "cstcpctl.ocx"
-Begin VB.MDIForm MdiPrincipalV2 
+Begin VB.MDIForm MdiPrincipal 
    BackColor       =   &H8000000C&
    Caption         =   "IGA Server"
    ClientHeight    =   8970
@@ -689,11 +689,7 @@ Begin VB.MDIForm MdiPrincipalV2
       End
    End
 End
-Attribute VB_Name = "MdiPrincipalV2"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = False
+
 Option Explicit
 
 Private WithEvents pObjAdminEventos                 As clsAdminEventos
@@ -2753,3 +2749,4 @@ Error:
     End If
 
 End Sub
+
